@@ -1,0 +1,17 @@
+{
+    "production":{
+      "api":"sephora-soa-backend-api-gateway:81"
+    },
+    "ebf":{
+      "api":"api.sephora.cn"
+    },
+    "stage":{
+      "api":"stage-sephora-soa-backend-api-gateway:81"
+    },
+    "qa1":{
+      "api":"testapi.sephora.cn"
+    },
+    "qa2":{
+      "api":"10.157.32.94:8080"
+    }
+  }

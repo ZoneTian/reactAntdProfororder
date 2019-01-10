@@ -1,5 +1,5 @@
 import React , { Component } from 'react'
-
+import { connect } from 'dva'
 import { Form, Button, } from 'antd'
 
 import FromItem from '@/components/FormItem'
@@ -14,8 +14,18 @@ const formItemLayout = {
         span:12
     }
 }
+@connect(({Citylist})=>({
+  Citylist,
+}))
 class OrderTable_ extends Component {
   state = {};
+
+  componentDidMount(){
+   
+    const { dispatch } = this.props
+    console.log('1',this.props)
+    dispatch({type:'order/queryCity'})
+  }
 
   handleSubmit = (e) => {
     e.preventDefault();
@@ -28,7 +38,8 @@ class OrderTable_ extends Component {
   }
 
   render(){
-      
+      const { Citylist } = this.props;
+      console.log(Citylist,'Citylist')
       return ( 
         <Form onSubmit={this.handleSubmit}>
           {

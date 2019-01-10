@@ -1,6 +1,12 @@
 import { stringify } from 'qs';
 import request from '@/utils/request';
 
+export async function querycity(){
+  return request('/common/city',{
+    method: 'GET',
+  })
+}
+
 export async function queryProjectNotice() {
   return request('/api/project/notice');
 }

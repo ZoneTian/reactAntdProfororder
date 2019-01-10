@@ -1,0 +1,40 @@
+{
+    "orderTime": [
+      1544803200000,
+      1544976000000
+    ],
+    "paymentTime": null,
+    "placeTime": null,
+    "storeIds": [
+      "S001",
+      "JD002"
+    ],
+    "channelIds": [
+      "APP",
+      "PC"
+    ],
+    "brands": null,
+    "level1Categories": null,
+    "level2Categories": null,
+    "level3Categories": null,
+    "basicStatus": null,
+    "orderInternalStatus": null,
+    "provinces": [
+      "浙江",
+      "江苏",
+      "湖南"
+    ],
+    "cities": null,
+    "districts": null,
+    "cardLevels": null,
+    "orderTypes": null,
+    "splitTypes": null,
+    "skuCodes": [
+      "399573",
+      "459439",
+      "102233",
+      "365986"
+    ],
+    "fileName": null,
+    "sku": true
+  }

@@ -1,0 +1,26 @@
+[
+    {
+        "label":"类别",
+        "type":"FormRadio",
+        "id":"orderType",
+        "other":true,
+        "rules":[
+            {"requre":true,"message":"请选择类型"}
+        ],
+        "options":[
+            { "label": "Sales_order_level", "value": "Sales_order_level" },
+            { "label": "Purchase_order_level", "value": "Purchase_order_level"}
+        ]
+
+    },
+    {
+        "label":"时间",
+        "type":"FormSelectDate",
+        "id":"FormSelectDate"
+    },
+    {
+        "label":"省市区",
+        "type":"FormTag",
+        "id":"FormTag"
+    }
+]
